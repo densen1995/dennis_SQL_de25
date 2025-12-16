@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS AS videos(SELECT * FROM read_csv_auto(''))

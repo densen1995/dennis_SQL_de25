@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS staging.stocks AS (
 
 CREATE TABLE IF NOT EXISTS staging.stores AS (
     SELECT * FROM read_csv_auto('data/stores.csv')
-); <
+); 
 
 CREATE TABLE IF NOT EXISTS staging.categories AS (
     SELECT * FROM read_csv_auto('data/categories.csv')

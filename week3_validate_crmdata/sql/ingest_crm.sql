@@ -13,3 +13,10 @@ SELECT * FROM staging.crm
 UNION 
 SELECT * FROM staging.crm2
 );
+
+
+
+CREATE SCHEMA IF NOT EXISTS constrained;
+
+CREATE TABLE constrained.csm_new (no_@_sign VARCHAR , 
+);
